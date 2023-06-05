@@ -44,7 +44,7 @@ class _ArticleCardState extends State<ArticleCard> {
         child: Card(
           shape: const RoundedRectangleBorder(
               borderRadius: BorderRadius.all(Radius.circular(15))),
-          color: const Color(0xFFfafafa),
+          color: const Color(0xFFf5f5f5),
           elevation: 0,
           child: Column(
             children: [
@@ -85,6 +85,7 @@ class _ArticleCardState extends State<ArticleCard> {
                       child: SizedBox(
                           width: widget.width,
                           child: Text(widget.articleData.introduction)),
+                          
                     ),
                     Align(
                       alignment: Alignment.bottomLeft,

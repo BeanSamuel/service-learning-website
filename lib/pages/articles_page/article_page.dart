@@ -29,7 +29,6 @@ class _MyStatefulWidgetState extends State<ArticlePage> {
       body: Consumer<ArticlesProvider>(
         builder: (context, articlesProvider, child) {
           final articleData = articlesProvider.articlesData[widget.articleId]!;
-
           return Column(
             mainAxisSize: MainAxisSize.min,
             crossAxisAlignment: CrossAxisAlignment.start,
